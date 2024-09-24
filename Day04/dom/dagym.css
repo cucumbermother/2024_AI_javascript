@@ -1,0 +1,68 @@
+.container {
+  width: 100vw;
+  height: 100vw;
+}
+
+.card {
+  width: 800px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+
+  gap: 10px;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.photobox {
+  max-width: 20%;
+  height: 100%;
+}
+
+.photobox > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.contents {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.one {
+  color: gray;
+  font-size: 10px;
+}
+
+.two {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.three {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.three > span {
+  font-size: 8px;
+  font-weight: 100;
+}
+
+.text {
+  width: fit-content;
+  height: fit-content;
+  background-color: rgba(128, 128, 128, 0.514);
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-size: 10px;
+  color: rgb(87, 86, 86);
+  padding: 7px 20px;
+  border-radius: 10px;
+}
